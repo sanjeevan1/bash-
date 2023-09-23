@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Image Upload and Delivery Details</title>
-</head>
-<body>
-    <h1>Order Details</h1>
-    <form action="upload.php" method="post" enctype="multipart/form-data">
-        <label for="images">Upload Images (Max 5)</label>
-        <input type="file" name="images[]" multiple accept="image/*"><br><br>
-        
-        <label for="note">Note:</label>
+
         <textarea name="note" rows="4" cols="50"></textarea><br><br>
         
         <label for="address">Delivery Address:</label>
